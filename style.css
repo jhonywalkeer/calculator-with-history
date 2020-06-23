@@ -1,0 +1,187 @@
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  display: flex;
+  font-family: "Arial";
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  padding: 25px 35px;
+  background-color: #2E3031;
+  box-shadow: 10px 10px 10px #999;
+  font-family: 'Arial';
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+}
+.calculator__count-wrap {
+  max-width: 355px;
+  margin-right: 20px;
+}
+.calculator__screen-holder {
+  position: relative;
+  padding: 0 6px 5px;
+  border: 1px solid #a9a9a9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.calculator__subscreen {
+  max-width: calc(100% - 10px);
+  position: absolute;
+  top: 20px;
+  right: 6px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.calculator__subscreen::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.calculator__subscreen::-webkit-scrollbar {
+  height: 10px;
+  background-color: transparent;
+}
+.calculator__subscreen::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+.calculator__screen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 80px;
+  text-align: right;
+  font-size: 24px;
+}
+.calculator__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-bottom: -6px;
+}
+.calculator__history {
+  font-family: 'Courier New', Courier, monospace;
+  width: 350px;
+  padding: 10px;
+  margin-bottom: 4px;
+  overflow-y: scroll;
+  max-height: 457px;
+  background-image: linear-gradient(135deg, #2E3031 50%, transparent 50%), linear-gradient(225deg, #2E3031 50%, transparent 50%), linear-gradient(45deg, #2E3031 50%, transparent 50%), linear-gradient(-45deg, #2E3031 50%, transparent 50%);
+  background-color: #2A5095;
+	background-position: top left, top left, bottom left, bottom left;
+	background-size: 12px 12px;
+	background-repeat: repeat-x;
+}
+.calculator__history::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.calculator__history::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+.calculator__history::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+.calculator__history-item {
+  display: block;
+  color: #fff;
+  overflow-x: scroll;
+  max-width: 100%;
+  font-size: 16px;
+  margin-bottom: 5px;
+  letter-spacing: 0.2px;
+}
+.calculator__history-item:last-child {
+  margin-bottom: 0;
+}
+.calculator__history-item::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.calculator__history-item::-webkit-scrollbar {
+  height: 5px;
+  background-color: transparent;
+}
+.calculator__history-item::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+.calculator__history-item span {
+  margin-right: 1px;
+}
+.calc-btn-wrap {
+  position: relative;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.calc-btn-wrap:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -1.5px;
+  right: 0;
+  border-radius: 5px;
+  width: 3px;
+  height: 3px;
+  transform: skewY(45deg);
+  transition: 0.1s ease all;
+}
+.calc-btn-wrap:after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 1.5px;
+  left: -4px;
+  width: 5px;
+  height: 3px;
+  border-radius: 5px;
+  transform: skewY(43deg);
+  transition: 0.1s ease all;
+}
+
+.calc-btn calc-btn_c_ calc-btn_s_wide {
+    color: #fff;
+}
+.calc-btn-wrap_disabled .calc-btn {
+  background-color: #ddd;
+}
+.calc-btn-wrap_toggle:before,
+.calc-btn-wrap_toggle:after {
+  height: 0;
+  width: 0;
+}
+.calc-btn-wrap_toggle:before {
+  top: 0;
+  right: 2px;
+}
+.calc-btn-wrap_toggle:after {
+  left: 0;
+}
+.calc-btn-wrap_toggle .calc-btn {
+  transform: translate(0, 0);
+}
+.calc-btn {
+  width: 80px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #a9a9a9;
+  background-color: #2E3031;
+  transition: 0.1s ease transform;
+  transform: translate(-4px, -4px);
+  outline: none;
+  border:0.5px solid #a9a9a9;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial';
+}
+.calc-btn_s_wide {
+  width: 170px;
+}
+
+.calc-btn_c_blue{
+  background-color: #2A5095;
+  color: #fff;
+}
