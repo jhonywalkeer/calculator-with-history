@@ -2,7 +2,7 @@
 
 ## :clipboard: About the project
 
-If you want to see the project in execution follow the link of [my Dribble](https://cdn.dribbble.com/users/4955805/screenshots/13356811/media/fb08868e536f3fb87371efe53a43b5e4.gif).
+If you want to see the project in execution follow the link of [my Dribble](https://dribbble.com/shots/13356811-Calculator).
 
 ## :computer: Languages used
 
