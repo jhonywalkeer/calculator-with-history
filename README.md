@@ -1,26 +1,15 @@
-# Calculator with history
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/JhonyWalker-pixel/calculator-with-history)
 
-This is a simple calculator that records the history of your operations
+## :clipboard: About the project
 
-### Getting started
+If you want to see the project in execution follow the link of [my Dribble](https://cdn.dribbble.com/users/4955805/screenshots/13356811/media/fb08868e536f3fb87371efe53a43b5e4.gif).
 
- - Enter the operation you want to perform
- - Right after the result, view the history on the right side
+## :computer: Languages used
 
-### Tech
+In addition to our dear HTML and CSS I used a very well-known language:
+* Javascript
 
-The following technologies were used:
+## :book: License
 
-* HTML
-* CSS
-* Javacript
-
-### Links
-
-* Interface and usability in practice  https://dribbble.com/shots/12232085-Calculator-with-history
-
-License
-----
-MIT
+This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
 
