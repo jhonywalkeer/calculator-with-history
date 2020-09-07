@@ -2,7 +2,7 @@
 
 ## :clipboard: About the project
 
-If you want to see the project in execution follow the link of [my Dribble](https://dribbble.com/shots/13356811-Calculator).
+If you want to see the project in execution follow the link of [my Dribble](https://dribbble.com/JhonyWalker-pixel) or acesse [here](https://jhonywalker-pixel.github.io/calculator-with-history/)
 
 ## :computer: Languages used
 
