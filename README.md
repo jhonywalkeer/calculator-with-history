@@ -1,15 +1,27 @@
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/JhonyWalker-pixel/calculator-with-history)
 
-## :clipboard: About the project
+## 💻 Repository Summary
 
-If you want to see the project in execution follow the link of [my Dribble](https://dribbble.com/JhonyWalker-pixel) or acesse [here](https://jhonywalker-pixel.github.io/calculator-with-history/)
+A simple calculator that has an account history screen
 
-## :computer: Languages used
+## 🛠 Technologies
 
-In addition to our dear HTML and CSS I used a very well-known language:
-* Javascript
+#### Project was built using **HTML** and **CSS** but what is it?
 
-## :book: License
+- **HTML** - Or HyperText Markup Language, which means: "Hypertext Markup Language" is a markup language used in the construction of the "skeleton" of web pages.
 
-This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
+- **CSS** - Or Cascading Style Sheets is a mechanism for adding style to a web document.
 
+## 🔨 Local Installation
+
+You will need [GIT](https://git-scm.com/) in the most up-to-date version installed on your computer to continue.
+
+```bash
+$ cd calculator-with-history
+$ code .
+```
+
+And now to run our game locally just open the `index.html` file and open it with the **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)** extension
+
+## 📖 License
+
+This project is under license from MIT. See the [LICENSE](LICENSE.md) file for more details.
