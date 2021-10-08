@@ -16,6 +16,8 @@ A simple calculator that has an account history screen
 You will need [GIT](https://git-scm.com/) in the most up-to-date version installed on your computer to continue.
 
 ```bash
+https://github.com/jhonywalkeer/calculator-with-history.git
+
 $ cd calculator-with-history
 $ code .
 ```
